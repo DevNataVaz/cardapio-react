@@ -1,0 +1,29 @@
+
+.header {
+  background-color: #4b1200;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-size: 16px;
+
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+}
+
+.title {
+  margin-top: 8px;
+  font-family: "Istok Web", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 24px 20px 0;
+  }
+}

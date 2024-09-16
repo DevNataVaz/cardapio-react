@@ -1,0 +1,19 @@
+.menuCard {
+  background-color: #fff;
+  display: flex;
+  max-width: 480px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.menuContent {
+  padding: 0 44px 1304px;
+}
+
+@media (max-width: 480px) {
+  .menuContent {
+    padding: 0 20px 1304px;
+  }
+}

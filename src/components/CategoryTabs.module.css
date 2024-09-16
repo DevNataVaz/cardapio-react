@@ -1,0 +1,19 @@
+.categoryNav {
+  overflow-x: auto;
+  display: flex;
+  width: 100%;
+  padding-bottom: 8px;
+  margin-top: 43px;
+  gap: 10px;
+}
+
+.categoryTab {
+  border-radius: 18px;
+  background: #4b1200;
+  color: #fff;
+  font: 600 18px/1 "Kreon", sans-serif;
+  padding: 8px 16px;
+  white-space: nowrap;
+  border: none;
+  cursor: pointer;
+}
